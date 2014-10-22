@@ -6,11 +6,10 @@
 -- To change this template use File | Settings | File Templates.
 --
 
+local extras = require "core/h2"
+
 function HelloWorld()
-
     --local b = IsAddOnLoaded("foo");
-    local x = NUM_CHAT_WINDOWS;
     print "Hello World, Num Chat Windows"
-    print (x);
+    print (GetNumberOfChatWindows());
 end
-
